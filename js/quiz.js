@@ -1,94 +1,40 @@
 const questions=[
     {
-        question:"My Toys nickname?",
+        question:"Which is the largest continent in the world?",
         answers:[
-            {text:"Puchan",correct:false},
-            {text:"Puchu",correct:true},
-            {text:"Puchi",correct:false},
-            {text:"Puchaniya",correct:false},
+            {text:"Africa",correct:false},
+            {text:"Asia",correct:true},
+            {text:"Europe",correct:false},
+            {text:"Australia",correct:false},
         ]
     },
     {
-        question:"What is my love language?",
+        question:"Which country is known as the Land of the Rising Sun?",
         answers:[
-            {text:"Beating",correct:false},
-            {text:"Holding Hands",correct:false},
-            {text:"Biting",correct:true},
-            {text:"Physical Touch",correct:false},
+            {text:"China",correct:false},
+            {text:"Japan",correct:true},
+            {text:"Thailand",correct:false},
+            {text:"South Korea",correct:false},
         ]
     },
     {
-        question:"What is something on my bucket list?",
+        question:"What is the capital of Australia?",
         answers:[
-            {text:"Traveling solo",correct:true},
-            {text:"Making my parents proud",correct:false},
-            {text:"Getting Tattoos",correct:false},
-            {text:"Trying every type of food at least once",correct:false},
+            {text:"Sydney",correct:false},
+            {text:"Melbourne",correct:false},
+            {text:"Canberra",correct:true},
+            {text:"Perth",correct:false},
         ]
     },
     {
-        question:"What's one thing that makes me feel really happy?",
+        question:"Which ocean is the largest in the world?",
         answers:[
-            {text:"You ignoring other girls",correct:true},
-            {text:"Sleeping",correct:false},
-            {text:"Eating",correct:true},
-            {text:"You saying sorry even when it's my fault",correct:false},
+            {text:"Atlantic Ocean",correct:false},
+            {text:"Pacific Ocean",correct:true},
+            {text:"Indian Ocean",correct:false},
+            {text:"Arctic Ocean",correct:false},
         ]
     },
-    {
-        question:"What is my biggest insecurity?",
-        answers:[
-            {text:"Being to much",correct:false},
-            {text:"You hiding things from me",correct:true},
-            {text:"You leaving after 1 got attached",correct:false},
-            {text:"Being replaced",correct:false},
-        ]
-    },
-    {
-        question:"What was your first impression of me",
-        answers:[
-            {text:"No chance I'd ever like her",correct:true},
-            {text:"She is a simple girl",correct:false},
-            {text:"She is rude",correct:false},
-            {text:"Not my type",correct:false},
-        ]
-    },
-    {
-        question:"What's my “I'm upset but pretending I'm fine” behavior?",
-        answers:[
-            {text:"Sending only OK",correct:false},
-            {text:"Gets quiet and says, “I don't want to talk right now.”",correct:true},
-            {text:"Becomes sarcastic suddenly",correct:false},
-            {text:"Acting extra busy",correct:false},
-        ]
-    },
-    {
-        question:"What's my most dramatic habit?",
-        answers:[
-            {text:"Takes the biggest steps for the smallest things",correct:false},
-            {text:"Makes weird faces whenever something feels annoying",correct:false},
-            {text:"Starts dancing after eating something good",correct:false},
-            {text:"Can't control laughter in public places",correct:true},
-        ]
-    },
-    {
-        question:"What's my funniest reaction when I get scared?",
-        answers:[
-            {text:"Runs first",correct:false},
-            {text:"Covers face",correct:false},
-            {text:"Starts screaming",correct:true},
-            {text:"Jumps like a cartoon character",correct:false},
-        ]
-    },
-    {
-        question:"My one of the closest friend?",
-        answers:[
-            {text:"Shubhanshi",correct:false},
-            {text:"Sayan",correct:true},
-            {text:"Tamanna",correct:false},
-            {text:"Anisha",correct:false},
-        ]
-    }
 ]
 
 const proceedBtn=document.querySelector(".proceedBtn");
