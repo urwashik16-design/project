@@ -1,0 +1,117 @@
+body{
+    background:linear-gradient(180deg,hsl(351, 100%, 86%),hsl(0, 0%, 100%));
+    margin: 0px;
+}
+.one{  
+    background-color: aliceblue;
+    box-shadow: 2px 2px 5px hsl(330, 100%, 70%);
+    width: 40%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 455px;
+    margin-bottom: 72px;
+}
+.myh1{
+    font-size: 3.5rem;
+    font-family: cursive;
+    color: hsl(352, 72%, 58%);
+    margin-top: 180px;
+    margin-left: 300px;
+}
+.second{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+}
+.proceedBtn{
+    background-color:hsl(351, 100%, 86%) ;
+    color: white;
+    padding: 10px 20px;
+    font-size: 2rem;
+    margin-left: 790px;
+    margin-top: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow:2px 2px 5px hsl(330, 100%, 70%) ;
+}
+.proceedBtn:hover{
+    background-color:hsl(351, 100%, 76%) ;
+    cursor: pointer;
+}
+.proceedBtn:active{
+    background-color:hsl(351, 100%, 56%) ;    
+}
+.questionblock{
+    background-color: white;
+    box-shadow: 2px 2px 5px hsl(330, 100%, 70%);
+    width: 40%;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+    margin-left: 455px;
+    margin-bottom: 72px;
+    border-radius: 25px;
+    border: 5px solid lightcoral;
+}
+.questionheading{
+    background-color: hsl(0, 79%, 78%);
+    box-shadow: 2px 2px 5px hsl(330, 100%, 70%);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    margin-bottom: 2px;
+    font-weight: bold;
+    font-size: 2rem;
+    color: hsl(0, 79%, 48%);
+}
+.btn{
+    background-color: hsl(39, 77%, 83%);
+    border: 2px solid lightcoral;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    width: 100%;
+    height: 60px;
+    color: hsl(0, 79%, 48%);
+}
+.btn:hover{
+    background-color: hsl(39, 77%, 73%);
+}
+.nextBtn{
+    background-color: hsl(39, 77%, 83%);
+    border: 2px solid lightcoral;
+    border-radius: 15px;
+    width: 20%;
+    height: 60px;
+    color: hsl(0, 79%, 48%);
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-left: 250px;
+    box-shadow: 2px 2px 5px hsl(330, 100%, 70%);
+}
+.nextBtn:hover{
+    background-color: hsl(39, 77%, 73%);
+    cursor: pointer;
+}
+.incorrect{
+    background-color: #ff9393;
+}
+.correct{
+    background-color: #9aeabc;
+}
+.last{
+    font-size: 4rem;
+    font-weight: bold;
+    color: hsl(0, 79%, 48%);
+    margin-left: 500px;
+    margin-top: 250px;
+}
